@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Gabriel Torres
+   Date: 11/14/18
+	
+   Filename: br_styles.css
+
+*/
+
+html {
+    background: url(br_paper.png) fixed;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0px auto;
+    width: 1000px;
+    min-height: 100%;
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+        rgb(51, 51, 51) -15px 0px 25px;
+}
+
+header {
+    background-color: burlywood;
+    width: auto;
+    height: auto;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+article#info1 {
+    border: 10px solid rgba(33, 33, 55, 0.4);
+    width: 120px;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+article#info2 {
+    width: 50%;
+    float: right;
+    border: 4px double rgb(131, 179, 227);
+    border-radius: 30px;
+}
+
+img#pic {
+    display: block;
+    border-radius: 30px;
+    border: 10px solid;
+    filter: brightness(1);
+    filter: sepia(2);
+}
+
+figcaption {
+    padding-right: 700px;
+    text-align: center;
+}
+
+header {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+img#imgHeader {
+    transform: rotateY(10deg);
+
+}
